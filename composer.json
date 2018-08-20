@@ -55,7 +55,8 @@
         "symfony/validator": "^2.8|^3.1|^4.0",
         "symfony/templating": "^2.8|^3.1|^4.0",
         "symfony/yaml": "^2.8|^3.1|^4.0",
-        "symfony/var-dumper": "^2.8.9|^3.1|^4.0"
+        "symfony/var-dumper": "^2.8.9|^3.1|^4.0",
+        "symfony/workflow": "^3.4|^4.0"
     },
     "extra": {
         "branch-alias": {
