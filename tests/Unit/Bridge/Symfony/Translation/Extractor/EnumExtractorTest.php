@@ -67,7 +67,7 @@ class EnumExtractorTest extends TestCase
 
         $this->assertEquals(
             [
-                'trans_readable_enum' => ['sources' => [__DIR__ . '/Enum/ReadableEnum.php:readable_enum']],
+                'trans_readable_enum' => ['sources' => [__DIR__ . DIRECTORY_SEPARATOR . 'Enum' . DIRECTORY_SEPARATOR . 'ReadableEnum.php:readable_enum']],
             ],
             $catalog->getMetadata('', 'messages_test')
         );
